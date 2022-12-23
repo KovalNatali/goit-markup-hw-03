@@ -1,0 +1,213 @@
+:root {
+  --first-title-color: #2e2f42;
+  --first-btn-color: #ffffff;
+  --main-text-color: #434455;
+  --accent-color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+/* -----logo------ */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+
+}
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-title-color)
+}
+
+/* ------header---- */
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-link.current {
+  color: var(--accent-color);
+}
+.heading-texte {
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.mailto { 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.mailto:hover,
+.mailto:focus {
+ color: var(--accent-color);
+}
+.phone {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.phone:hover,
+.phone:focus {
+  color: var(--accent-color);
+}
+
+/* ------hero------- */
+.hero-list {
+  background-color: var(--first-title-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--first-btn-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  align-items: center;
+  letter-spacing: 0.04em;
+ 
+  cursor: pointer;
+  color: var(--first-btn-color);
+  background-color: var(--accent-color);
+}
+
+/* ------heading---- */
+.heading-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.heading-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* ----main------ */
+.main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+/* -----body------ */
+.body {
+  background-color: #f4f4fd;
+}
+.body-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.body-new-title {
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.body-new-text {
+ 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* -----footer----- */
+.footer {
+  background-color: var(--first-title-color);
+}
+.footer-text {
+ 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.footer-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+/* -----------portfolio---------- */
+
+.filtr-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  cursor: pointer;
+  color: var(--accent-color);
+  background-color: #f4f4fd;  
+}
+
+.filtr-button :hover {
+ background-color: var(--accent-color);
+ color:#ffffff;
+}
+
+.filtr-button :focus {
+  background-color: var(--accent-color);
+  color:#ffffff;
+ }
+
+.portfolio-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
